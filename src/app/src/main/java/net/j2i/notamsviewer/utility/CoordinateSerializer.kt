@@ -20,7 +20,7 @@ object CoordinateSerializer: KSerializer<coordinate> {
         var parts = coordinateString.split(',')
         val d1 = parseDouble(parts[0])
         val d2 = parseDouble(parts[1])
-        val c = coordinate(d1,d2)
+        val c = coordinate(d2,d1)
         return c;
 
     }

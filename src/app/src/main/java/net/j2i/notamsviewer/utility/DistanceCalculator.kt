@@ -21,7 +21,7 @@ class DistanceCalculator {
          return ToRadian(val2) - ToRadian(val1)
      }
 
-     fun CalcDistance(p1: coordinate, p2: coordinate): Double {
+     public fun CalcDistance(p1: coordinate, p2: coordinate): Double {
          return CalcDistance(
              p1.latitude,
              p1.longitude,
@@ -50,7 +50,7 @@ class DistanceCalculator {
         }
     }
 
-    fun CalcDistance(
+    public fun CalcDistance(
          lat1: Double,
          lng1: Double,
          lat2: Double,
