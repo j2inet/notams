@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NOTAMS Viewer</string>
+    <string name="label_closest_airport">Closest Airport</string>
+    <string name="action_refresh">Refresh</string>
+</resources>

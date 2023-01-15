@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="notamHeader" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="notamDate" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="notamDetails" parent="@android:style/TextAppearance">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+</resources>
